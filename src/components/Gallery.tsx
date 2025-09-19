@@ -108,6 +108,42 @@ const Gallery = () => {
             <CarouselNext className="hover:bg-primary hover:text-primary-foreground" />
           </Carousel>
         </div>
+
+        {/* Videos Section */}
+        <div className="mt-16">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-foreground mb-4">Portões em funcionamento</h3>
+            <p className="text-muted-foreground">Veja nossos portões automáticos em ação</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div className="aspect-video rounded-lg overflow-hidden shadow-elegant">
+              <video
+                className="w-full h-full object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
+                <source src="/portao_abrindo_1..mp4" type="video/mp4" />
+                Seu navegador não suporta o elemento de vídeo.
+              </video>
+            </div>
+            
+            <div className="aspect-video rounded-lg overflow-hidden shadow-elegant">
+              <video
+                className="w-full h-full object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
+                <source src="/portao_abrindo_2..mp4" type="video/mp4" />
+                Seu navegador não suporta o elemento de vídeo.
+              </video>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
