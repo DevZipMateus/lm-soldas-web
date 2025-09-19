@@ -16,6 +16,7 @@ import gradeCasa from "@/assets/gallery/grade-casa.jpg";
 import gradeJanelas from "@/assets/gallery/grade-janelas.jpg";
 import gradeResidencial from "@/assets/gallery/grade-residencial.jpg";
 import lixeiraResidencial from "@/assets/gallery/lixeira-residencial.jpg";
+import lixeiraResidencialAberta from "@/assets/gallery/lixeira-residencial-aberta.jpg";
 import portao1 from "@/assets/gallery/portao-1.jpg";
 import portao2 from "@/assets/gallery/portao-2.jpg";
 import portao3 from "@/assets/gallery/portao-3.jpg";
@@ -29,6 +30,7 @@ const Gallery = () => {
     { src: gradeJanelas, alt: "Grade para janelas", title: "Grade de proteção para janelas" },
     { src: gradeResidencial, alt: "Grade residencial decorativa", title: "Grade residencial com design" },
     { src: lixeiraResidencial, alt: "Lixeira residencial fechada", title: "Lixeira metálica residencial" },
+    { src: lixeiraResidencialAberta, alt: "Lixeira residencial aberta", title: "Lixeira residencial com compartimentos" },
     { src: portao1, alt: "Portão residencial", title: "Portão automático residencial" },
     { src: portao2, alt: "Portão com tela", title: "Portão com proteção em tela" },
     { src: portao3, alt: "Portão de entrada", title: "Portão de entrada em ferro" },
